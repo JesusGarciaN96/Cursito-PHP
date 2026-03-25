@@ -1,0 +1,7 @@
+{
+  "src": [
+    "."
+  ],
+  "includeIfPhp": true,
+  "psr12": true
+}
