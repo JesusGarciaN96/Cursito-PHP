@@ -13,3 +13,15 @@
 
   echo "The current directory is: " . __DIR__ . __FILE__ . "\n";
   echo "El nombre es: $nombre";
+
+  # Usar var_dump() solo para hacer debug, en desarrollo.
+  echo "Es un valor entero?: " . is_int(12) . "\n";
+
+  $temporal = true;
+  var_dump((string) $temporal);
+  
+  # Manejo de flotantes en PHP
+  $decimal = 0.2 + 0.1;
+
+  var_dump($decimal);
+  echo "\nEl resultado decimal es: $decimal ";
